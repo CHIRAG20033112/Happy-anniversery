@@ -1,0 +1,67 @@
+body{
+  background-color: #ddd;
+  height: 95vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+
+}
+
+.container{
+  background-color: #eee;
+  height: 620px;
+  width: 620px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.h1{
+  text-align: center;
+  margin-top: 4rem;
+  width: 200px;
+  font-family: "Dancing Script";
+  font-size: 3.3rem;
+}
+
+.img{
+  height: 320px;
+  position: absolute;
+  bottom: 10vh;
+}
+
+.leaf{
+  height: 200px;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+
+.leaf-0{
+  height: 200px;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 0px;
+  left: 5px;
+}
+
+.leaf-1{
+  width: 660px;
+  height: 690px;
+  transform: rotate(80deg);
+  position: absolute;
+  left: 0.3vw;
+  bottom: -2.2vh;
+}
+
+.text{
+  margin: 5vh 15vw;
+  position: absolute;
+  top: 0px;
+  font-family: "Caveat";
+  font-size: 2rem;
+}
